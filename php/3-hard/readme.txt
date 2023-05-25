@@ -9,7 +9,7 @@ des différents types de films, ici, les charges et les points de fidélité.
 
 En créant cette interface, nous pouvons supprimer les constantes de la classes Movie
 qui n'était pas explicit et ajouté la propriété type pour la classe Movie, ce qui est plus logique
-selon moi car un film est toujours catégorisé
+selon moi car un film est toujours catégorisé.
 
 Ces deux changements allègent le code de la methode getStatementInformation() et la rendent 
 plus compréhensible. 

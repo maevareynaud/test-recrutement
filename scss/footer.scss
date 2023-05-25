@@ -27,6 +27,20 @@
 }
 
 /*
-J'ai regroupé les propriétés communes de manière à éviter de devoir penser à les changer de partout
-au besoin.
+J'ai :
+ . regroupé les propriétés communes de manière à éviter de devoir penser à les changer de partout.
+ . utilisé du scss au lieu du css
+
+J'aurais eu tandance à renommer les class de la sorte suivante : 
+"cgv__footer" en footer__cgv, "cgu__footer" en footer__cgu, de manière a pouvoir 
+imbriquer d'avantage et donc etre plus précise : 
+
+.footer {
+
+  &__cgv,
+  &__cgu {}
+}
+
 */
+
+
