@@ -1,0 +1,32 @@
+/* Footer */
+#footer {
+  text-shadow: 0.55rem 0.55rem #FFFFFF;
+
+  .form__footer,
+  .cgv__footer,
+  .cgu__footer {
+    text-shadow: 0.55rem 0.55rem #15FFF5;
+  }
+
+  .cgu__footer,
+  .cgv__footer {
+    margin: 0.5rem;
+  }
+
+  .form__footer {
+    margin: 1rem;
+  }
+
+  .cgv__footer {
+    .button {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+  }
+}
+
+/*
+J'ai regroupé les propriétés communes de manière à éviter de devoir penser à les changer de partout
+au besoin.
+*/
